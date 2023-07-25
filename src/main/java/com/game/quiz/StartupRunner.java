@@ -23,17 +23,5 @@ public class StartupRunner implements CommandLineRunner {
     @Override
     public void run(String...args) throws Exception {
         log.info("Executing startup actions...");
-//        playerRepository.save(new PlayerEntity("John"));
-//        playerRepository.save(new PlayerEntity("Harry"));
-//        playerRepository.save(new PlayerEntity("George"));
-
-        quizDataService.getQuizCategories();
-//        quizDataService.getQuizQuestions();
-
-//        log.info("List of players from database:");
-//        List<PlayerEntity> playersFromDatabase = playerRepository.findAll();
-//        for (PlayerEntity player : playersFromDatabase) {
-//            log.info("Retrieved player: " + player);
-//        }
     }
 }
